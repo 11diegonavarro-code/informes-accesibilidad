@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El nombre accesible no coincide con el texto visible: cómo arreglarlo · Accesibilidad Búnker</title>
+<meta name="description" content="Garantiza que, en los elementos etiquetados mediante su contenido, su texto visible debe formar parte de su nombre accesible. Qué significa, a quién perjudica y cómo arreglarlo paso a paso, con un ejemplo de código.">
+<link rel="canonical" href="https://11diegonavarro-code.github.io/informes-accesibilidad/guias/el-nombre-accesible-no-coincide-con-el-texto-visible.html">
+<link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<main>
+<header><p class="gris"><a href="../index.html">Accesibilidad Búnker</a> › <a href="index.html">Guías</a> › Otros</p>
+<h1>El nombre accesible no coincide con el texto visible: cómo arreglarlo</h1>
+<p><strong>Los elementos deben tener su texto visible como parte de su nombre accesible.</strong> Garantiza que, en los elementos etiquetados mediante su contenido, su texto visible debe formar parte de su nombre accesible.</p>
+<p class="gris">Pautas WCAG 2.2, nivel A · 2.5.3 Etiqueta en el nombre · regla de axe-core «label-content-name-mismatch»</p></header>
+<section><h2>A quién perjudica</h2><p>A quien usa tecnologías de apoyo, como un lector de pantalla o el teclado.</p></section>
+<section><h2>Cómo arreglarlo</h2><ol class="lista"><li>Si un botón o un enlace lleva aria-label, ese nombre tiene que incluir el texto que se ve, mejor al principio.</li><li>Quien usa el ordenador con la voz dice lo que ve («pulsar Comprar»): si el nombre accesible es otro, el control no responde.</li><li>Lo más sencillo suele ser quitar el aria-label y dejar que el texto visible haga de nombre.</li></ol>
+<h3>Ejemplo</h3><pre tabindex="0" role="region" aria-label="Ejemplo de código"><code>&lt;!-- Mal: se ve «Comprar» y se llama «Añadir al carrito» --&gt;
+&lt;button aria-label=&quot;Añadir al carrito&quot;&gt;Comprar&lt;/button&gt;
+&lt;!-- Bien --&gt;
+&lt;button aria-label=&quot;Comprar: camiseta azul&quot;&gt;Comprar&lt;/button&gt;</code></pre></section>
+<section class="aviso"><h2>¿Cuántas veces pasa esto en tu web?</h2>
+<p>Un solo fallo suele repetirse en muchas páginas. Nuestro informe analiza tu web y te dice dónde está cada problema, con una captura, el código que lo causa y cómo arreglarlo, en 48 o 72 horas.</p>
+<p><a class="boton" href="../index.html#precios">Ver el informe, desde 149 € + IVA</a></p>
+<p class="gris">¿Dudas? Escríbenos a <strong>oficiowebapp@gmail.com</strong>.</p></section>
+
+</main>
+<footer><p>Guía escrita por Accesibilidad Búnker. Es información general, no asesoramiento legal. <a href="../privacidad.html">Política de privacidad</a>.</p><p>Titular: Diego Navarro · NIF 21804241B · Avenida del Maestro Rodrigo, 45, Valencia · oficiowebapp@gmail.com</p></footer>
+</body></html>
