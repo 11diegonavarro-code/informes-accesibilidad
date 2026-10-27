@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desplegables (select) sin etiqueta: cómo arreglarlo · Accesibilidad Búnker</title>
+<meta name="description" content="Comprueba que cada elemento select tiene una etiqueta o un nombre que diga qué se elige en él. Qué significa, a quién perjudica y cómo arreglarlo paso a paso, con un ejemplo de código.">
+<link rel="canonical" href="https://11diegonavarro-code.github.io/informes-accesibilidad/guias/desplegables-select-sin-etiqueta.html">
+<link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<main>
+<header><p class="gris"><a href="../index.html">Accesibilidad Búnker</a> › <a href="index.html">Guías</a> › Formularios</p>
+<h1>Desplegables (select) sin etiqueta: cómo arreglarlo</h1>
+<p><strong>Los desplegables (select) deben tener un nombre accesible.</strong> Comprueba que cada elemento select tiene una etiqueta o un nombre que diga qué se elige en él.</p>
+<p class="gris">Pautas WCAG 2.2, nivel A · 4.1.2 Nombre, función, valor · regla de axe-core «select-name»</p></header>
+<section><h2>A quién perjudica</h2><p>A quien usa un lector de pantalla o control por voz: si un campo no dice qué hay que escribir, no puede rellenarlo, y eso puede significar no terminar una compra o una consulta.</p></section>
+<section><h2>Cómo arreglarlo</h2><ol class="lista"><li>Los desplegables también necesitan una etiqueta asociada.</li></ol>
+<h3>Ejemplo</h3><pre tabindex="0" role="region" aria-label="Ejemplo de código"><code>&lt;label for=&quot;talla&quot;&gt;Talla&lt;/label&gt;
+&lt;select id=&quot;talla&quot;&gt;…&lt;/select&gt;</code></pre></section>
+<section class="aviso"><h2>¿Cuántas veces pasa esto en tu web?</h2>
+<p>Un solo fallo suele repetirse en muchas páginas. Nuestro informe analiza tu web y te dice dónde está cada problema, con una captura, el código que lo causa y cómo arreglarlo, en 48 o 72 horas.</p>
+<p><a class="boton" href="../index.html#precios">Ver el informe, desde 149 € + IVA</a></p>
+<p class="gris">¿Dudas? Escríbenos a <strong>oficiowebapp@gmail.com</strong>.</p></section>
+<section><h2>Otras guías de formularios</h2><ul class="lista"><li><a href="campos-de-formulario-sin-etiqueta.html">Campos de formulario sin etiqueta</a></li><li><a href="valores-de-autocomplete-no-validos-en-formularios.html">Valores de autocomplete no válidos en formularios</a></li></ul></section>
+</main>
+<footer><p>Guía escrita por Accesibilidad Búnker. Es información general, no asesoramiento legal. <a href="../privacidad.html">Política de privacidad</a>.</p><p>Titular: Diego Navarro · NIF 21804241B · Avenida del Maestro Rodrigo, 45, Valencia · oficiowebapp@gmail.com</p></footer>
+</body></html>

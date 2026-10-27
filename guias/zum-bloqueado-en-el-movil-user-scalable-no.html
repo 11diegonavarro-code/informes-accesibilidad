@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zum bloqueado en el móvil (user-scalable=no): cómo arreglarlo · Accesibilidad Búnker</title>
+<meta name="description" content="Garantiza que &lt;meta name=&quot;viewport&quot;&gt; no impide la ampliación y el zum en el texto. Qué significa, a quién perjudica y cómo arreglarlo paso a paso, con un ejemplo de código.">
+<link rel="canonical" href="https://11diegonavarro-code.github.io/informes-accesibilidad/guias/zum-bloqueado-en-el-movil-user-scalable-no.html">
+<link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<main>
+<header><p class="gris"><a href="../index.html">Accesibilidad Búnker</a> › <a href="index.html">Guías</a> › Móvil, zum y tamaño</p>
+<h1>Zum bloqueado en el móvil (user-scalable=no): cómo arreglarlo</h1>
+<p><strong>No debe impedirse el zum y la ampliación.</strong> Garantiza que &lt;meta name=&quot;viewport&quot;&gt; no impide la ampliación y el zum en el texto.</p>
+<p class="gris">Pautas WCAG 2.2, nivel AA · 1.4.4 Cambio de tamaño del texto · regla de axe-core «meta-viewport»</p></header>
+<section><h2>A quién perjudica</h2><p>A quien necesita ampliar la pantalla o tiene poca precisión con las manos: si no puede hacer zum o los botones son muy pequeños, no ve el contenido o falla al pulsar.</p></section>
+<section><h2>Cómo arreglarlo</h2><ol class="lista"><li>No bloquees el zoom en el móvil: quita user-scalable=no y maximum-scale=1 de la etiqueta viewport.</li></ol>
+<h3>Ejemplo</h3><pre tabindex="0" role="region" aria-label="Ejemplo de código"><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</code></pre></section>
+<section class="aviso"><h2>¿Cuántas veces pasa esto en tu web?</h2>
+<p>Un solo fallo suele repetirse en muchas páginas. Nuestro informe analiza tu web y te dice dónde está cada problema, con una captura, el código que lo causa y cómo arreglarlo, en 48 o 72 horas.</p>
+<p><a class="boton" href="../index.html#precios">Ver el informe, desde 149 € + IVA</a></p>
+<p class="gris">¿Dudas? Escríbenos a <strong>oficiowebapp@gmail.com</strong>.</p></section>
+<section><h2>Otras guías de móvil, zum y tamaño</h2><ul class="lista"><li><a href="botones-e-iconos-demasiado-pequenos-para-pulsar.html">Botones e iconos demasiado pequeños para pulsar</a></li></ul></section>
+</main>
+<footer><p>Guía escrita por Accesibilidad Búnker. Es información general, no asesoramiento legal. <a href="../privacidad.html">Política de privacidad</a>.</p><p>Titular: Diego Navarro · NIF 21804241B · Avenida del Maestro Rodrigo, 45, Valencia · oficiowebapp@gmail.com</p></footer>
+</body></html>

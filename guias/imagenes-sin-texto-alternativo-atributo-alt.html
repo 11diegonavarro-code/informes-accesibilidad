@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imágenes sin texto alternativo (atributo alt): cómo arreglarlo · Accesibilidad Búnker</title>
+<meta name="description" content="Garantiza que los elementos &lt;img&gt; tienen texto alternativo o un rol de none o presentation. Qué significa, a quién perjudica y cómo arreglarlo paso a paso, con un ejemplo de código.">
+<link rel="canonical" href="https://11diegonavarro-code.github.io/informes-accesibilidad/guias/imagenes-sin-texto-alternativo-atributo-alt.html">
+<link rel="stylesheet" href="../estilo.css"></head>
+<body>
+<main>
+<header><p class="gris"><a href="../index.html">Accesibilidad Búnker</a> › <a href="index.html">Guías</a> › Imágenes y textos alternativos</p>
+<h1>Imágenes sin texto alternativo (atributo alt): cómo arreglarlo</h1>
+<p><strong>Las imágenes deben tener texto alternativo.</strong> Garantiza que los elementos &lt;img&gt; tienen texto alternativo o un rol de none o presentation.</p>
+<p class="gris">Pautas WCAG 2.2, nivel A · 1.1.1 Contenido no textual · regla de axe-core «image-alt»</p></header>
+<section><h2>A quién perjudica</h2><p>A las personas ciegas o con poca visión que usan un lector de pantalla: sin un texto que la describa, oyen «imagen» o el nombre del archivo y no saben qué hay.</p></section>
+<section><h2>Cómo arreglarlo</h2><ol class="lista"><li>Pon a cada imagen un texto alternativo que diga lo que aporta (qué producto es, qué muestra la foto).</li><li>Si la imagen es solo decoración, déjale el texto alternativo vacío para que el lector de pantalla la salte.</li><li>En las tiendas, el texto alternativo de la foto de producto suele poder rellenarse desde la ficha del producto.</li></ol>
+<h3>Ejemplo</h3><pre tabindex="0" role="region" aria-label="Ejemplo de código"><code>&lt;img src=&quot;cafe-colombia.jpg&quot; alt=&quot;Paquete de café de Colombia de 250 g&quot;&gt;
+&lt;img src=&quot;adorno.svg&quot; alt=&quot;&quot;&gt;</code></pre></section>
+<section class="aviso"><h2>¿Cuántas veces pasa esto en tu web?</h2>
+<p>Un solo fallo suele repetirse en muchas páginas. Nuestro informe analiza tu web y te dice dónde está cada problema, con una captura, el código que lo causa y cómo arreglarlo, en 48 o 72 horas.</p>
+<p><a class="boton" href="../index.html#precios">Ver el informe, desde 149 € + IVA</a></p>
+<p class="gris">¿Dudas? Escríbenos a <strong>oficiowebapp@gmail.com</strong>.</p></section>
+<section><h2>Otras guías de imágenes y textos alternativos</h2><ul class="lista"><li><a href="paginas-sin-titulo-etiqueta-title.html">Páginas sin título (etiqueta title)</a></li><li><a href="iframes-sin-titulo.html">Iframes sin título</a></li><li><a href="iconos-svg-sin-texto-alternativo.html">Iconos SVG sin texto alternativo</a></li><li><a href="elementos-role-img-sin-texto-alternativo.html">Elementos role=&quot;img&quot; sin texto alternativo</a></li><li><a href="videos-sin-subtitulos.html">Vídeos sin subtítulos</a></li></ul></section>
+</main>
+<footer><p>Guía escrita por Accesibilidad Búnker. Es información general, no asesoramiento legal. <a href="../privacidad.html">Política de privacidad</a>.</p><p>Titular: Diego Navarro · NIF 21804241B · Avenida del Maestro Rodrigo, 45, Valencia · oficiowebapp@gmail.com</p></footer>
+</body></html>

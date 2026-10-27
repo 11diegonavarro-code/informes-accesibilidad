@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/index.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/index.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/contraste-de-color-insuficiente-en-el-texto.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/imagenes-sin-texto-alternativo-atributo-alt.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/enlaces-sin-texto-como-los-iconos-sin-nombre.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/botones-sin-texto-o-sin-nombre-accesible.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/botones-input-sin-texto-atributo-value.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/campos-de-formulario-sin-etiqueta.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/desplegables-select-sin-etiqueta.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/pagina-sin-el-atributo-lang.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/atributo-lang-con-un-idioma-no-valido.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/textos-en-otro-idioma-con-un-lang-no-valido.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/paginas-sin-titulo-etiqueta-title.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/iframes-sin-titulo.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/listas-ul-u-ol-con-elementos-que-no-son-li.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/elementos-li-fuera-de-una-lista.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/zum-bloqueado-en-el-movil-user-scalable-no.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/botones-e-iconos-demasiado-pequenos-para-pulsar.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/enlaces-que-solo-se-distinguen-por-el-color.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/botones-o-enlaces-dentro-de-otros.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/elementos-con-aria-hidden-que-reciben-el-foco.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/atributos-aria-no-permitidos-en-un-elemento.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/atributos-aria-con-valores-no-validos.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/roles-aria-sin-sus-atributos-obligatorios.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/roles-aria-que-no-existen.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/iconos-svg-sin-texto-alternativo.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/elementos-role-img-sin-texto-alternativo.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/zonas-con-scroll-que-no-se-pueden-usar-con-el-teclado.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/videos-sin-subtitulos.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/valores-de-autocomplete-no-validos-en-formularios.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/guias/falta-el-enlace-para-saltar-al-contenido.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://11diegonavarro-code.github.io/informes-accesibilidad/privacidad.html</loc><lastmod>2026-10-27</lastmod></url>
+</urlset>
